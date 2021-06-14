@@ -1,0 +1,9 @@
+1)
+Las dependencias circulares que fueron necesarias resolver son AB, AC y CB.
+
+2)
+Es la declaración de un identificador (en este caso clases) para el cual aún no se ha dado aún su definición.
+De esta forma se interrumpe el ciclo de dependencias circulares permitiendo que se realice la compilación.
+A modo de ejemplo en el caso planteado, en la clase A se declaran las clases B y C; esto permite realizar la 
+compilación de la clase A, pese a que aún no se conozcan las definiciones de las clases B y C.
+De forma análoga se procede con las clases B y C. 
